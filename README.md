@@ -94,7 +94,7 @@ A front-matter has only optional variables:
 
 Even if your front-matter is empty, you will need to put the `+++`.
 You can also, like in the config, add your own variables in a `[extra]` table.
-The front-matter will be accessible in templates at the `page.meta` field.
+The front-matter will be accessible in templates at the `page.extra` field.
 
 By default, the URL of a page will follow the filesystem paths. For example, if you have
 a page at `content/posts/python3.md`, it will be available at `{config.base_url}/posts/python3/`.
